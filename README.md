@@ -98,6 +98,13 @@ Define what unstable means for each vital X by performing FMEA
 ### Action plan
 List the action steps to mitigate the unstable conditions
 
-`mermaid
+```mermaid
 flowchart TD;
-
+A[Counter measures] -> B[Corrective Actions]
+A -> C[Preventive action]
+B -> D[Containment]
+B -> E[Correction]
+C -> Make the process mistake-proof by eliminating the recurring issues
+D -> Fix the problem until the root cause is identified
+E -> Fix the problem after identifying the root cause
+```
