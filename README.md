@@ -50,3 +50,54 @@ x̄ᵢ -> current rational subgroup average
 Zᵢ₋₁ -> running average of all preceding observations
 
 ---
+
+## 🔦 Control plan
+Control plan is a written summary description of the system for controlling a process
+- It describes actions required to maintain the desired state of the process
+- Describes actions required to minimize process and product variation
+- Evolves and changes with the process
+- Is considered a knowledge-transfer document
+- Can be created for a process or a step or equipment in a process
+- Provides a single point of reference
+- Enables assignment of responsibility
+
+---
+
+## 💈 Strategy
+- Minimizes process tampering
+- States the reaction plan
+- Signals when Kaizen activities are needed
+- Describes training needs
+- Describes maintenance schedule requirements
+-         Good control plan should clearly describe:
+-         1. What actions are to be taken?
+-         2. When to take them?
+-         3. Who should take them?
+- This process a documented approach to be followed in the case of variation thereby reducing the "firefighting" syndrome in which systems stop performing and teams scrabble to fix them
+
+## 🎎 Elements
+A control plan is the major deliverable from the control phase:
+- Project purpose and objectives
+- Risk management
+- Resource requirements and documents
+- Process ownership certification
+- Communication plan receommendation
+- Process stewardship
+- Financial analysis and results
+- Response plan
+
+### Response plan
+The best management process may become unstable at some point. Along with the improvements, it is important to create a response plan to handle the process when things go beyond control
+
+### Responsibility & Ownership
+Describe responsibility and ownership  to take required actions whenever any unstable condition occurs
+
+### Unstable conditions 
+Define what unstable means for each vital X by performing FMEA
+
+### Action plan
+List the action steps to mitigate the unstable conditions
+
+`mermaid
+flowchart TD;
+
