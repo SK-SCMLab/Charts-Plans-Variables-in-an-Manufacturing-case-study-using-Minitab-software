@@ -100,11 +100,11 @@ List the action steps to mitigate the unstable conditions
 
 ```mermaid
 flowchart TD;
-A[Counter measures] -> B[Corrective Actions];
-A -> C[Preventive action];
-B -> D[Containment];
-B -> E[Correction]
-C -> F[Make the process mistake-proof by eliminating the recurring issues];
-D -> G[Fix the problem until the root cause is identified];
-E -> H[Fix the problem after identifying the root cause];
+A[Counter measures] --> B[Corrective Actions];
+A --> C[Preventive action];
+B --> D[Containment];
+B --> E[Correction]
+C --> F[Make the process mistake-proof by eliminating the recurring issues];
+D --> G[Fix the problem until the root cause is identified];
+E --> H[Fix the problem after identifying the root cause];
 ```
