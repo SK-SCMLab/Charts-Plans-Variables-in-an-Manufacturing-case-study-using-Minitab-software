@@ -23,4 +23,30 @@ The cumulative sum control chart is formed by plotting the quantity as follows
 **Eg**: Used in Stock Modeling Software Packages
 
 ### EWMA Parameters
+*λ-Weight*
+- Weight is applied to the most recent rational subgroup average
+- λ is between 0 and 1
+- Usually λ is selected between 0.05 and 0.25
 
+*L-Multiplier*
+- Multiplier of rational subgroup standard deviation to set control limits
+- Typically set to 3 to match other control charts
+- Can be reduced for if λ is small (if 0.1≥λ, 2.6<L<2.8)
+
+*Center-line*
+This is represented by T or the target value of the quality characteristics 
+
+*Control limits*
+-          T ± L*S/√n * $`\sqrt((λ/2-λ)*[1-(1-λ)^2i])`$
+T -> the estimates of the long-term process mean
+S -> standard deviation established
+n -> the no. of samples in the rational subgroup
+
+The limits widen for each successive rational subgroup
+
+*Plotted Stat*
+-         Zᵢ = λx̄ᵢ+(1-λ)Zᵢ₋₁
+x̄ᵢ -> current rational subgroup average
+Zᵢ₋₁ -> running average of all preceding observations
+
+---
