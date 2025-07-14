@@ -108,3 +108,22 @@ C --> F[Make the process mistake-proof by eliminating the recurring issues];
 D --> G[Fix the problem until the root cause is identified];
 E --> H[Fix the problem after identifying the root cause];
 ```
+
+## 🦺 What to control - KPIV & KPOV
+It is important to define what needs to be controlled to define a strong control plan
+-        Process = f(x₁,x₂,....) = Y
+
+|*Key performance i/p variables (KPIV)*|*Key performance o/p variable (KPOV)*|
+|--------------------------------------|-------------------------------------|
+|1. The x factors are called KPIV |1. The o/p Y is called KPOV|
+|2. A control plan control the KPIV | 2. A control plan ensures the desired state for the KPOV |
+|3. A control plan controls the i/p| 3. A control plan monitors the o/p|
+
+### Identifying KPIVs:
+- Failure Mode and Effect Analysis (FMEA)
+- Cause-and-effect Matrix or Cause verification matrix
+- Multi-vari studies
+- Regression analysis
+- Design of Experiments (DoE)
+
+---
