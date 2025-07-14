@@ -37,7 +37,7 @@ The cumulative sum control chart is formed by plotting the quantity as follows
 This is represented by T or the target value of the quality characteristics 
 
 *Control limits*
--          T ± L*S/√n * $`\sqrt((λ/2-λ)*[1-(1-λ)^2i])`$
+-          T ± L*S/√n * $\sqrt((λ/2-λ)*[1-(1-λ)^2i])$
 T -> the estimates of the long-term process mean
 S -> standard deviation established
 n -> the no. of samples in the rational subgroup
