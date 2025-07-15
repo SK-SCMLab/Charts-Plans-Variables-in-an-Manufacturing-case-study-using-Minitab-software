@@ -208,6 +208,19 @@ A --> E[Log];
 
 ---
 
+## 🧘🏼 Case study - Coil Surface Thickness Monitoring
+### Process background:
+- **Plant**: Precision Strips Special Product Division
+- **Objective**: Maintain uniform coating thickness on steel coils (Target: 7.5 ± 0.3 μm)
+- **Problem**: Frequent minor coating shifts going undetected using traditional control charts
+- **Output measured**: Surface Coating Thickness
+- **Input Variables (KPIV)**:
+  - Roll Pressure (P)
+  - Bath temperature (T)
+  - Line Speed (S)
+- **Output (KPOV)**: Final Coating Thickness
+
+### 
 
 
 
