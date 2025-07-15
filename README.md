@@ -127,3 +127,33 @@ It is important to define what needs to be controlled to define a strong control
 - Design of Experiments (DoE)
 
 ---
+
+## 🦥 Tools to develop & execute control plan
+*Control charts* -> Useful to track process statistics overtime and detect the presence of special causes
+*Measurement System Analysis (MSA)* -> A technique that identifies measurement error (variation) and source of that error to reduce the variation
+*Error-proofing* -> Also known as **Poka-Yoke**. It refers to the implementation of fail-safe mechanisms within a process to prevent it from creating defects
+*SOP* -> It is also known as **Standard Operating Procedure**. It is a set of written instructions that details all the steps and activities of a process or procedure
+*PM* -> It is also known as **Preventive Maintenance**. It refers to the inclusion of PM as a part of the documented scheduled process or equipment maintenance
+
+### Using the tools
+- It is important to understand the basics of creating a control plan before you define a control plan
+- After understanding the process, a multi-functional team must be formed that will be responsible for controlling the process
+-             Process Flow diagram
+-             FMEA
+-             Special Characteristics (Critical & Significant)
+-             Control plans or lessons learned from similar parts/processes
+-             Technical documentation
+-             Validation plan results
+-             Optimization methods
+-             Team knowledge of the process
+
+### Choosing a right level of control
+```mermaid
+flowchart TD;
+A[Amount of Control] --> B[Verbal Instructions];
+A --> C[Written instructions];
+A --> D[Opportunity Management System (OMS];
+A --> E[Statistical Process Control (SPC)];
+A --> F[Poka Yoke];
+A --> G[Plan-Do-Study-Act (PDSA)];
+```
