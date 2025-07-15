@@ -152,8 +152,8 @@ It is important to define what needs to be controlled to define a strong control
 flowchart TD;
 A[Amount of Control] --> B[Verbal Instructions];
 A --> C[Written instructions];
-A --> D[Opportunity Management System(OMS)];
-A --> E[Statistical Process Control(SPC)];
+A --> D[Opportunity Management System OMS];
+A --> E[Statistical Process Control SPC];
 A --> F[Poka Yoke];
-A --> G[Plan Do Study Act(PDSA)];
+A --> G[Plan Do Study Act PDSA];
 ```
