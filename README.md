@@ -33,7 +33,7 @@ The cumulative sum control chart is formed by plotting the quantity as follows
 - Typically set to 3 to match other control charts
 - Can be reduced for if λ is small (if 0.1≥λ, 2.6<L<2.8)
 
-*Center-line*
+*Center-line (CL)*
 This is represented by T or the target value of the quality characteristics 
 
 *Control limits*
@@ -159,3 +159,73 @@ A --> G[Plan Do Study Act PDSA];
 ```
 Control plan helps in standardization of the various processes of the system
 *Characteristic/Parameter*:
+- The metric to be measured is determined through team discussions
+- The discussions should involve key team members
+- This parameter can be standardized across similar processes or equipments to measure the performance of the process
+
+*Critical-To-Quality CTQ/CL*
+- These parameters help in measuring the impact on process performance and have known to impact process performance negatively if not measured and controlled
+
+*Specification/Requirement*
+- Team discussions
+- Understand the Technology
+- The history of the process
+
+*Measurement/Method*
+- Availability of the equipment for the process
+- Calibration and MSA needs of the equipment
+- Training needs on the tool or the method
+- Supporting Manufacturing Performance Index (MPI)
+- Other operational blueprint requirements
+- The tool used to capture the time of entry of each purchase order in server stamp in the access database. These stamps calculate the total time used for completely entering the purchase order in the system
+
+*Sample size* -> All data entries in the acces database are used in the metric calculation
+The person selected will be based on:
+- Needs of the process
+- Location of the person
+- Processes or equipment
+- Skills of the person
+
+The purchase order administration will be measuring process
+```mermaid
+flowchart TD;
+A[Control sheets] --> B[Charts];
+A --> C[Checksheets];
+A --> D[Plots];
+A --> E[Log];
+```
+
+- Control methods should be customized for different floor or functional applications
+- These methods use as much quantitative information as possible to provide objective information
+- Paper charting may be preferrable as a starting point when compared to using a computer
+
+*Decision rule/Corrective action*
+- Include references to process support documentation such as corrective procedures, troubleshooting maps and so on
+- The decision rule analyzes the reason for the length of time entry, followed by a corrective action, to control the length
+
+*Reference number*
+- Facilitate access to documented or corrected procedures against each corrective measure identified in the previous section
+
+---
+
+## 🧢 Total Productive Maintenance (TPM)
+TPM is a holistic approach to equipment maintenance and is commonly used in manufacturing industries
+- It eliminates deficiencies from machines and equipment
+- It minimizes or removes defects and detects downtime
+- It emphasizes maintenance and improvement of process system and equipment environment
+- It increases the operational efficiency of equipment
+
+TPM is the key operational activity for managing quality:
+
+```mermaid
+flowchart TD;
+A[TPM] --> B[Overall equipment effectiveness];
+A --> C[Availability];
+C --> D[Time during within the process of equipment is operational];
+C --> E[x Performance];
+E --> F[Measuring of production is operating at max. capacity];
+E --> G[x Quality];
+G --> H[Measuring defects];
+```
+
+
