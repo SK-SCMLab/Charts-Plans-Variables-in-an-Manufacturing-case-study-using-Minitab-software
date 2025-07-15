@@ -157,3 +157,5 @@ A --> E[Statistical Process Control SPC];
 A --> F[Poka Yoke];
 A --> G[Plan Do Study Act PDSA];
 ```
+Control plan helps in standardization of the various processes of the system
+*Characteristic/Parameter*:
