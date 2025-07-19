@@ -237,6 +237,13 @@ A --> E[Log];
 |Coolant temperature|RTD 18 ± 1| EWMA on hourly average | High temperature represents larger diameter |
 |Tool-wear index|Vision system 0-1|P chart for wear > 0.8|High wear represents tapered hole|
 
+---
 
+## 🤲🏻 Requirements
+- Minitab 2021 or above
+- Control charts fundamentals
+
+---
+*"All improvement happens project by project and in no other way" - Joseph M Juran*
 
 
