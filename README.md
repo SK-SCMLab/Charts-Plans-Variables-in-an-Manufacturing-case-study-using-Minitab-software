@@ -220,7 +220,23 @@ A --> E[Log];
   - Line Speed (S)
 - **Output (KPOV)**: Final Coating Thickness
 
-### 
+### Measurement System Analysis (MSA)
+- Initially run a randomized run order matrix by creating Gage R&R matrix
+- Accept the micrometer only if Total Gage R&R %Study Var <= 10% and ndc>5. Else, do not accept it
+
+### CuSum Chart
+- The first week shows both C⁺ and C⁻ within h - process in statistical control. A rising C⁺ crossing h on day 12 signals a +1σ mean shift; maintenance adjusts cutter speed
+
+### EWMA chart
+- Four consecutive points below LCL in week 3 indicate a prolonged downward drift; tool is replaced
+
+### Linking KPIVs & KPOVs
+|*KPIV (X)*|*Sensor/Range*|*Control Method*|*KPOV impact*|
+|----------|--------------|----------------|-------------|
+|Cutter speed (rpm)| CNC log 5000 ± 50 | CuSum on X records | High speed represents smaller diameter|
+|Coolant temperature|RTD 18 ± 1| EWMA on hourly average | High temperature represents larger diameter |
+|Tool-wear index|Vision system 0-1|P chart for wear > 0.8|High wear represents tapered hole|
+
 
 
 
